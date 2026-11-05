@@ -7,7 +7,6 @@ while i < max:
     i+=1
     if (len([True for item in prime if i % item == 0])) == 0:
         prime.add(i)
-        print(i)
 p = 0
 for k in range(10,100):
     for l in range(10):
@@ -19,5 +18,4 @@ for k in range(10,100):
                 break
         if not isDividable:
             p+=1
-            print(t)
 print(p)
