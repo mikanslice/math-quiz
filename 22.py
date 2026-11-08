@@ -1,2 +1,1 @@
-for i in range(1,10001):
-    
+print(len([True for i in range(1,10001) if "7" in str(i)]))

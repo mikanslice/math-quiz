@@ -1,0 +1,1 @@
+print(sum(i for i in range(1,361) if 360 % i == 0))
